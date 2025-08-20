@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Smythe", system-ui;
+      
+}
+
+.hero{
+    background-image: url('food.jpg');
+    background-size: cover;
+    height: 167px;
+    margin: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    }
+.hero .content{
+    margin: 0;
+    padding: 46px;
+}
+h1{
+    font-size: 39px;
+}
+.content h1, .content p{
+    margin: 0;
+}
+.content p{
+    padding-top: 10px;
+    font-size: 22px;
+}
+
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #DEDEDE;
+}
+.food-img p{
+    font-size: 89px;
+    margin: 0;
+}
+.menu-item button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #DEDEDE;
+    background: none;
+    font-size: 27px;
+    
+}
+
+.complete-order-cart{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.added-food-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.food{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.total{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid black;
+}
+.btn{
+    width: 100%;
+    height: 60px;
+    background-color: #16DB99;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+legend {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 30px 0;
+}
+form{
+    width: 524px;
+    height: 542px;
+    padding: 10px;
+    border-radius: 3.89px;
+    box-shadow: 0 8px 16px 70px rgba(0, 0, 0, 0.15);
+    display: none;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+fieldset {
+    border: none;
+    width: 90%;
+}
+fieldset input{
+    border: 1.3px solid #757575;
+    color: #757575;
+    padding: 10px 0 10px 0px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+}
+
+fieldset .btn, fieldset input{
+    width: 100%;
+    height: 71px;
+    font-size: 20px;
+}
+
+fieldset .btn{
+    margin-top: 50px;
+}
+
+.appreciation{
+    height: 120px;
+    padding: 20px;
+    font-family: "Smythe";
+    font-size: 32px;
+    color: #065F46;
+    background-color: #ECFDF5;
+    text-align: center;
+    display: none;
+}
+
+.hidden{
+    display: flex;
+}

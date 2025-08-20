@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/styles.css">
+        <script src="/client.js" type="module"></script>
+    </head>
+    <body>
+         <header>
+        <div class="hero">
+            <div class="content">
+                <h1>Dalala Diner</h1>
+                <p>The best burgers and pizza in town</p>
+            </div>  
+        </div>
+    </header>
+    <container class="main">
+        <section class="food-card" id="food-card">
+        </section>
+        <section class="complete-order">
+        </section>
+        <section class="cart" id="cart">
+              <div class="complete-order-cart" id="complete-order-cart">
+                <div>
+                  <h3>Your Order</h3>
+                </div>
+                <div id="added-food-item" class="added-food-item" >
+                  <!-- Added food items html -->
+                    <div class="food">
+                        <h3>Pizza</h3>
+                        <p>Ingredients</p>
+                    </div>
+                    <h3>$12</h3>
+                </div>
+                <div class="total">
+                  <h3>Total Price:</h3>
+                  <h3>${totalprice}</h3>
+                </div>
+                <button id="complete-order-btn" class="btn">Complete Order</button>
+            </div>
+        </section>
+
+        <form>
+          <fieldset>
+            <legend>Enter card details</legend>
+            <input id="your-name" name="your-name" type="text" placeholder="Enter your name"><br>
+            <input id="card-no" name="card-no" type="number" placeholder="Enter card number"><br>
+            <input id="cvv" name="cvv" type="number" placeholder="Enter CVV"><br>
+            <button type="submit" class="btn" id="pay-btn">Pay</button>
+          </fieldset>
+        </form>
+        <div class="appreciation">
+          <p>Thanks, Juma!, Your order is on its way!</p>
+        </div>
+
+    </container>
+    <script src="client.js" type="module"></script>
+    </body>
+</html>
